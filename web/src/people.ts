@@ -1262,6 +1262,7 @@ export function filter_people_by_search_terms(users: User[], search_string: stri
     return filtered_users;
 }
 
+
 export function dm_matches_search_string(users: User[], search_string: string): boolean {
     const matcher = build_person_matcher(search_string);
 
